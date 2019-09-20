@@ -1,10 +1,10 @@
-# invoer
-r = float(input('geef de straal van de cirkel'))
+#invoer
+r = float(input('geef de straal'))
 pi = 3.14159
 
-# berekening
-o = r**2 * pi
-uitvoer = 'De oppervlakte van een cirkel met straal ' + str(r) + ' is ' + str(o)
-# uitvoer
-print(uitvoer)
+#berekening
+o = pi * r**2
+
+#uitvoer
+print(o)
 
