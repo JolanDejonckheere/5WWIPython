@@ -1,13 +1,18 @@
 #invoer
-aantal_deeltjes_in_mol = input('geef aantal deeltjes')
-n_a = 6.020*10**23
-m_s = 32.06
+aantal_seconden = int(input('geef een geheel getal'))
 
 #berekening
-massa = m_s * float(aantal_deeltjes_in_mol)
-aantal_deeltjes = float(aantal_deeltjes_in_mol) * n_a
+dagen = aantal_seconden // 86400
+aantal_seconden = aantal_seconden % 86400
 
-#uitvoer
-print(massa)
-print(aantal_deeltjes)
+uren = aantal_seconden // 3600
+aantal_seconden = aantal_seconden % 3600
+
+minuten = aantal_seconden // 60
+aantal_seconden = aantal_seconden % 60
+
+#uivoer
+print(str(dagen) + 'd ' + str(uren) + ':' + str(minuten) + ':' + str(aantal_seconden))
+
+
 
