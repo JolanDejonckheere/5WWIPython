@@ -1,7 +1,8 @@
 getal = int(input('getal: '))
 
-for veelvoud in range(getal, 100, getal):
-    print(veelvoud)
+som = 0
+for veelvoud in range(getal, 101, getal):
+    som += veelvoud
 
-print(100 % int(veelvoud))
+print(som)
 
