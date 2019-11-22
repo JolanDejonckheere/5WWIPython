@@ -1,8 +1,9 @@
 aantal = int(input('aantal getallen'))
 
-#lees het eerste getal voor de lus in
+# lees het eerste getal voor de lus in
 getal_0 = int(input('geef getal : '))
 
+# Het eerste getal is onmiddelijk de som en het grootste getal
 som, grootste = getal_0, getal_0
 
 for i in range(aantal - 1):
@@ -12,4 +13,6 @@ for i in range(aantal - 1):
 
 gemiddelde = som / aantal
 
-print(gemiddelde, grootste)
+print('het grootste getal is', grootste, 'en het gemiddelde is', gemiddelde)
+
+
