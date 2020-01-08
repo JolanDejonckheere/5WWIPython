@@ -13,6 +13,8 @@ for i in range(aantal - 1):
 
 gemiddelde = som / aantal
 
-print('het grootste getal is', grootste, 'en het gemiddelde is', gemiddelde)
+gemiddelde = '{:.2f}'.format(gemiddelde)
+
+print('Het grootste getal is', grootste, 'en het gemiddelde is', gemiddelde)
 
 
