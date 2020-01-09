@@ -1,18 +1,10 @@
-aantal_seconden = int(input('geef aantal seconden'))
+productprijs = float(input(''))
+totaal = productprijs
 
-stappen = 0
-vooruit = 0
-achteruit = 0
+while productprijs != 0:
+    productprijs = float(input(''))
+    totaal += productprijs
 
-for i in range(1, aantal_seconden + 1, 1):
-    if i % 2 == 1:
-        vooruit += 2
-        stappen += vooruit
-
-    else:
-        achteruit += 1
-        stappen -= achteruit
-
-print(stappen)
+print('De totale prijs is €', "{:.2f}".format(totaal))
 
 
