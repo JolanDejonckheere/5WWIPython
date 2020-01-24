@@ -7,8 +7,8 @@ def discriminant(a, b, c):
     return (b ** 2) - (4 * a * c)
 
 def wortels(a, b, discriminant):
-   w1, w2 = None, None
-    d = discriminant(a, b, c)
+    d = discriminant
+    w1, w2 = None, None
     if d >= 0:
         w1 = (-b + sqrt(d)) / (2 * a)
         w2 = (-b - sqrt(d)) / (2 * a)
