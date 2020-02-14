@@ -11,8 +11,17 @@ def roteer_letter(letter, plaatsen):
     return chr(ord(letter) + offset)
 
 
-def versleutel(woord, n):
-    rotatie = ''
+def versleutel(zin, plaatsen):
+    uitkomst = ''
+    for letter in zin:
+        uitkomst += roteer_letter(letter, plaatsen)
+
+    return uitkomst
+
+
+
+
+
 
 
 
