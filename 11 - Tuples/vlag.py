@@ -1,0 +1,1 @@
+def vlag(richting, kleuren):
