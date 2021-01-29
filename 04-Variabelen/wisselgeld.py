@@ -1,6 +1,7 @@
 #invoer
 eurocent = int(input('geef aantal eurocent'))
 getal = eurocent
+
 #berekening
 aantal_muntstukken = (eurocent // 100)
 eurocent = eurocent % 100
